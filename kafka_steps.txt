@@ -1,0 +1,37 @@
+Apache Kafka and Zookeeper
+
+https://kafka.apache.org/downloads
+
+--- Binary downloads Scala 2.13
+
+extract it and paste it in folder kafka_2.13-3.9.0
+and create two folders "zookeeper-data" and "kafka-logs"
+set log.dirs=C:/kafka_2.13-3.9.0/kafka-logs property in config\server.properties
+set dataDir=C:/kafka_2.13-3.9.0/zookeeper-data property in config\zookeeper.properties
+
+Then run below-mentioned commands
+
+C:\kafka_2.13-3.9.0>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+C:\kafka_2.13-3.9.0> .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+Run below step to create topic "test-topic"
+
+C:\kafka_2.13-3.9.0> .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test-topic
+
+Run below step for producer and consumer console.
+
+C:\kafka_2.13-3.9.0> .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic test-topic
+>Hi Team kaise ho
+
+C:\kafka_2.13-3.9.0> .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test-topic --from-beginning
+
+Open New Terminal and run
+
+PS C:\mahendra\ksfinal3> $response = Invoke-WebRequest -Uri "http://localhost:8080/api/send" -Method POST -Headers $headers -Body "Hello, Spring Boot Mahendra!"
+
+
+Inside Spring Boot Project
+---------------------------
+1. Add "Spring for Apache Kafka" dependency.
+
