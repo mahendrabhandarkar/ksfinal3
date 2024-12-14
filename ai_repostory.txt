@@ -1,0 +1,24 @@
+AI Tools [@1littlecoder [https://www.youtube.com/@1littlecoder] youtube channel -- AI Made Easy ]:
+HuggingFace ---github of AI models.   -- Large Language Models
+Crew AI -- Agentic Framework. -- RAG
+Ollama -- AI Agents
+cohere --- Deployment of LLM Apps
+langchain ---
+unsloth ---Evaluation of LLMs.
+chroma --- LLMOps
+MMistral AI ---
+Pinecone --- Vector DBs.
+LIamaIndex ---
+OpenAI ---
+Nvidia Nemo ---
+trulens ---
+Chainlit ---
+drant ---
+Liama 3 ---
+Streamlit ---
+vLLM ---
+cerebrium ---
+
+Vector DB -- On which we can store PDFs, Images, etc. It's can store an Multidimensial data storage.
+
+GenKit -- Firebase product. Which not compulsory made Firebase. We can use it without Firebase too.
