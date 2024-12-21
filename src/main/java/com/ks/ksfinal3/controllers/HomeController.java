@@ -27,4 +27,18 @@ public class HomeController {
 
         return "pages/home";
     }
+
+    @GetMapping("/index2")
+    public String landingPage2(Model model, HttpServletResponse response) {
+        //model.addAttribute("model", new )
+        logger.info("I am here 2");
+        String username = new String("""
+                Welcome to My JTE Application,
+                This is the main content.""");
+
+        // Add the content object to the model
+        model.addAttribute("username", username);
+
+        return "pages/home2";
+    }
 }

@@ -7,8 +7,10 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaProducerConfig {
+    /*
     @Bean
     public NewTopic testTopic() {
         return TopicBuilder.name("test-topic").build();
     }
+     */
 }
