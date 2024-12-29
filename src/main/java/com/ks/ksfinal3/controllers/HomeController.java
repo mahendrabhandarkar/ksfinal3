@@ -41,4 +41,10 @@ public class HomeController {
 
         return "pages/home2";
     }
+
+    @GetMapping("/login")
+    public String loginPage(Model model, HttpServletResponse response) {
+        return "pages/login";
+    }
+
 }

@@ -127,6 +127,19 @@
 			<artifactId>lodash</artifactId>
 			<version>4.17.21</version>
 		</dependency>
+		<!-- Embedded Mongo Start -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>de.flapdoodle.embed</groupId>
+			<artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
+			<version>4.11.0</version>
+			<optional>true</optional>
+		</dependency>
+		<!-- Embedded Mongo End -->
 	</dependencies>
 
 	<build>

@@ -19,6 +19,9 @@
     <script src="https://cdn.datatables.net/plug-ins/2.1.8/sorting/datetime-moment.js"></script>
     <script src="/webjars/lodash/4.17.21/lodash.min.js"></script>
     <!--  Add JSPDF META-INF/resources/webjars/lodash/4.17.21/lodash.min.js -->
+    <!-- Lit JS
+    <script type="module" src="https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js"></script>
+    -->
 </head>
 <body>
 
