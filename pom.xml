@@ -140,6 +140,18 @@
 			<optional>true</optional>
 		</dependency>
 		<!-- Embedded Mongo End -->
+		<!-- Razor Pay integration -->
+		<dependency>
+			<groupId>com.razorpay</groupId>
+			<artifactId>razorpay-java</artifactId>
+			<version>1.4.8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.3.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
