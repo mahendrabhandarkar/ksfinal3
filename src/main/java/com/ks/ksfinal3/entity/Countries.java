@@ -19,7 +19,6 @@ import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor(staticName = "build")
-@NoArgsConstructor
 @Entity
 @Table(name = "tbl_countries")
 public class Countries {

@@ -19,7 +19,6 @@ import lombok.*;
 import jakarta.validation.constraints.*;
 
 @Data
-@AllArgsConstructor(staticName = "build")
 @NoArgsConstructor
 public class CountriesRequest {
 	public CountriesRequest(int id, String iso, String name, String sortname, String iso3, Integer numcode, Integer phonecode) {
