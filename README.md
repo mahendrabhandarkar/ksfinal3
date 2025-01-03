@@ -5,3 +5,4 @@ Java Open Service Broker --- The Java Open Service Broker is Java library for de
 https://medium.com/@dornala.amar/embedded-kafka-with-spring-boot-5cab7d8cf831 -- Embedded Kafka with Spring Boot <br />
 Feature flag --- Togglz library / Unleash UI is an open-source feature toggle management tool <br />
 Digital Stamp --- Receipt generation <br />
+Projections - @JOIN vs JOIN FETCH -- <br />
