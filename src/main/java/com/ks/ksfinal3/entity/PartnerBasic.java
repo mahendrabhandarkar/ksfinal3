@@ -1,11 +1,6 @@
 package com.ks.ksfinal3.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 /* CREATE TABLE `tbl_partner_basic` (
   `id` int(11) NOT NULL,
@@ -29,23 +24,26 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor(staticName = "build")
 //@NoArgsConstructor
 @Entity
 @Table(name = "tbl_partner_basic")
-public class PartnerBasic {
+public class PartnerBasic implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
-	private int id;
+	private Long id;
 
-	@Column(name = "user_id")
-	private int userId;
+	@Column(name = "users_id")
+	private Long usersId;
 	
-	@Column(name = "pcountry_id")
-	private int pcountryId;
+	@JoinColumn(name = "pcountry_id")
+	@ManyToOne
+	private Countries pcountryId;
 	
 	@Column(name = "pstate_id")
 	private int pstateId;

@@ -238,3 +238,8 @@ INSERT INTO `tbl_countries` (`id`, `iso`, `name`, `sortname`, `iso3`, `numcode`,
 (237, 'YE', 'YEMEN', 'Yemen', 'YEM', 887, 967),
 (238, 'ZM', 'ZAMBIA', 'Zambia', 'ZMB', 894, 260),
 (239, 'ZW', 'ZIMBABWE', 'Zimbabwe', 'ZWE', 716, 263);
+
+insert into tbl_partner_basic
+(id, page, pageto, pbody_type, pcity_id, pdisability, pheight,pheightto, pmtongue_id,
+phiv_positive, pmarital_status, pprofile_complete, pskin_tone, pstate_id, users_id, pcountry_id)
+VALUES (1, 1, 1, 1, 1, 1,1, 1, 1,1,1,1,1,1, 1, 1);
