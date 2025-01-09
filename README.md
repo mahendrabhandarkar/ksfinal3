@@ -7,3 +7,6 @@ Feature flag --- Togglz library / Unleash UI is an open-source feature toggle ma
 Digital Stamp --- Receipt generation <br />
 Projections and Excerpts - @JOIN vs JOIN FETCH -- Used to handle Spring Data JPA Joins, data retrieval and performance increase.<br />
 Spring boot RedirectAttributes and BindingResult example -- <br />
+Vaadin and Spring Boot - https://github.com/vaadin/flow-crm-tutorial/tree/v14 <br />
+Spring boot and Nginx - <br />
+Nginx + ModSecurity and OWASP CRS - <br />
