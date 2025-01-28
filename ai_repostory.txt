@@ -22,3 +22,5 @@ cerebrium ---
 Vector DB -- On which we can store PDFs, Images, etc. It's can store an Multidimensial data storage.
 
 GenKit -- Firebase product. Which not compulsory made Firebase. We can use it without Firebase too.
+WindSurf vs Cursor -- Which is better AI Code Editor --- youtube video. https://www.youtube.com/watch?v=9jgR-Ih_wGs 
+
