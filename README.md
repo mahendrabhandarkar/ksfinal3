@@ -11,3 +11,4 @@ Vaadin and Spring Boot - https://github.com/vaadin/flow-crm-tutorial/tree/v14 <b
 Spring boot and Nginx - <br />
 Nginx + ModSecurity and OWASP CRS - <br />
 mongosh.exe -host 127.0.0.1:56675 mongodb --- connect to embedded mongodb database via command.
+Veracode (Static Analysis) and Redmine [Project Management]
